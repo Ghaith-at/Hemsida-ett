@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(187, 255, 0);
+    color: red;
+}
+
+h1{
+    color:aqua;
+}
+
+p{
+    color:blue;
+}
+
+#ptagg2{
+    color:white;
+}
+
+.haje{
+    color: darkgreen;
+}
+
+h1, p{
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
