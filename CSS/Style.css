@@ -1,13 +1,15 @@
+/* font-family: 'Martian Mono', monospace; */
+
 body{
     /*background-color: rgb(138,43,226);*/
     background-image: url("../media/2001.jpg");
-    background-size: 500px;
-    /* background-repeat: repeat-x; */
-    width: 250px;
-    height: 200px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    /* width: 250px;
+    height: 200px; */
     overflow: scroll;
     background-attachment: fixed;
-    font-family: 'courier';
+    font-family: 'courier ';
 
 }
 
@@ -17,8 +19,24 @@ h1{
     border-bottom: dotted 10px yellow;
 }
 
+p{
+    /* font-family: 'Martian Mono', monospace; */
+    font-size: 10px;
+    font-weight: 900;
+}
 
+#ptagg2{
+    text-align: center;
+    text-decoration: overline;
+}
 
+h3{
+    background-color: blue;
+    border: solid 1px;
+    /* padding: 20px 50px 10px 60px;
+    margin: 30px; */
+    padding-top: 50px;
+}
 
 
 
