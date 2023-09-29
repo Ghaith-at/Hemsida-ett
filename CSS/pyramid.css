@@ -1,0 +1,27 @@
+h1{
+    border: solid 3px;
+    margin: 20px 100px  ;  
+}
+
+h2{
+    border: solid 1px;
+    margin: 30px 80px;
+    
+}
+
+.text11{
+    border: solid 5px;
+    border-color: black;
+    margin: 30px 50px; 
+    background-color: darkgreen;
+    color: white;
+}
+
+#text2 {
+    border: solid 5px;
+    border-color: red;
+    margin: 30px 50px;
+}   
+
+
+

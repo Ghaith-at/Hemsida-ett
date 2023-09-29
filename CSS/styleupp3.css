@@ -1,5 +1,31 @@
-body {
+img {
     background-image: url("Media/css.jpg");
-    border: solid 1px;
-    width: 400px;
+    border: solid 3px;
+    width: 340px;
+
 }
+p{
+    background-color: #ADD8E6;
+    border: solid 3px;
+    width: 300px;
+    padding: 60px 20px 60px 20px;
+}
+
+.helo {
+    background-color:#0000FF;
+    color: white;
+    border-color: black;
+}
+
+.joel {
+    background-color:#00008B;
+    color: white;
+    border-color: black;
+}
+
+#ahme {
+    width: 325px;
+    border: solid 10px;
+    color: gray;
+}
+
