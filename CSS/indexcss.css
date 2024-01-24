@@ -1,0 +1,111 @@
+body {
+    background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin: 0px 0px -5px 0px;
+}
+
+.afheader {
+    text-align: center;
+}
+
+.bild1 {
+    height: 250px;
+    float: right;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.sektion1 {
+    font-size: 20px;
+    margin: 80px 20px 100px 20px;
+}
+
+.bild2 {
+    height: 250px;
+    float: left;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.sektion2 {
+    font-size: 20px;
+    margin: 100px 20px;
+}
+
+
+.toppen {
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.toppen li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.toppen a {
+    text-decoration: none;
+    color: black;
+}
+
+.Hem22 {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 0px 0px 30px 0px;
+    color: black;
+}
+
+
+.upp li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.upp a {
+    text-decoration: none;
+    color: black;
+}
+
+.bild21, .bild22, .bild23, .bild24, .bild25 {
+    width: 400px;
+    margin: 20px 10px;
+}
+
+.head3 {
+    text-align: center;
+    align-items: center;
+}
+
+
+.Frogor1 {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    color: black;
+}
+
+.om{
+    text-align: center;
+}
+
+.ommig{
+    text-align: center;
+    align-items: center;
+    margin: 0px 200px 50px 200px;
+}
+
+li{
+    margin-bottom: 15px;
+}

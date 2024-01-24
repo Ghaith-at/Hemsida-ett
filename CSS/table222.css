@@ -1,0 +1,41 @@
+
+.hela {
+    width: 900px;
+    font-weight: bold;
+ }
+
+.tr1 {
+    background-color: red;
+    text-align: center;
+}
+
+.tr2 {
+    background-color: yellow;
+    text-align: center;
+}
+
+.tr3 {
+    background-color: yellow;
+}
+
+.listagul {
+    background-color: yellow;
+    text-align: left;
+}
+
+.colorblue {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.slutet {
+    background-color: lightseagreen;
+}
+
+td {
+    text-align: center;
+}
+
+.colorgreen {
+    background-color: greenyellow;
+}

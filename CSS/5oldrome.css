@@ -1,0 +1,13 @@
+body{
+    background-image: url('../Media/papertexture_853x600.jpg');
+    background-repeat: no-repeat;
+    background-color: #e5d8d2;
+    font-family: Georgia;
+    overflow-y: scroll;
+    background-attachment: fixed;
+    width: 800px;
+}
+
+.bild{
+    
+}

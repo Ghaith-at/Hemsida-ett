@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="CSS/form222.css">
+</head>
+<body>
+    
+    <h2>Boka möte:</h2>
+
+    <form action="https://kaggteknik.se/forms/formpost.php" method="get">
+        <fieldset>
+            <legend>Kontakt uppgifter</legend>
+
+            <p>Användarnamn. (required)</p>
+            <input type="text" name="username" size="15" maxlength="30" required/> 
+            
+            <p>Lösenord:</p>
+            <input type="password" name="password" size="15" maxlength="30"/> 
+
+            <p>Förnamn och efternamn:</p>
+            <input type="username" name="forname" size="15" maxlength="30"/>
+            <input type="text" name="aftername" size="15" maxlength="30"/>
+
+            <p>Adress:</p>
+            <input type="text" name="adress" size="15" maxlength="30"/>
+
+            <p>Postnr: (max 5 nr)</p>
+            <input type="text" name="postnr" size="15" maxlength="5" />
+
+            <p>Telefonnummer: (required)</p>
+            <input type="tel" name="phone" size="15" maxlength="11" placeholder="070-1234567" required/>
+
+            
+            <p>Land:</p>
+            <input type="text" list="Landlista"/>
+
+            <datalist id="Landlista">
+                <option value=""></option>
+                <option value="Danmark" >Danmark</option>
+                <option value="Sverige" >Sverige</option>
+                <option value="Norge" >Norge</option>
+                <option value="Finland" >Finland</option>
+                <option value="Island" >Island</option>
+            </datalist>
+            
+
+            <p>Födelsdag:</p>
+            <input type="date" name="date" size="15" maxlength="30"/>
+
+            <p>E-post: (@ måste finnas med)</p>
+            <input type="email" name="email" size="15" maxlength="30" required/> 
+             
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Mötes uppgifter:</legend>
+
+            <p>Tid: <input type="time" name="time" size="15" maxlength="30"/></p>
+
+            <p>Meddelande:</p>
+            <textarea type="comments" name="comments" cols="60" rows="5" placeholder="Om du vill lämna ett Meddelande så kan du skriva här..."></textarea>
+
+            <p>Vilka språk:</p>
+            <input id="html" type="radio" name="sprok" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input id="css" type="radio" name="sprok" value="CSS">
+            <label for="css">CSS</label>
+            <br>
+            <input id="java" type="radio" name="sprok" value="JavaScript">
+            <label for="java">JavaScript</label>
+            <br>
+            <br>
+            <input type="checkbox" name="mail" value="mail" /> Ja, jag vill prenumerera på mailutskick:
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Skicka"/>
+        <input type="reset" value="Återställ"/>
+
+    </form>
+
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    slider.oninput = function() {
+    output.innerHTML = this.value;}
+</script>
+       
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="CSS/Form.css">
+</head>
+<body>
+
+    <div class="Ilnfo">
+        
+        <form action="https://kaggteknik.se/forms/formpost.php" method="post">
+            <fieldset class="delform1">
+                <legend>Contact details</legend>
+                <p>Name
+                <input type="text" name="name" size="15" maxlength="30" required /> <br>
+                Email
+                <input type="email" name="email" size="15" maxlength="30" required/> 
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Your Review</legend>
+                <p>How did you hear about us?
+                <select name="discover"></p>
+                    <option value="reklam">Online ad</option>
+                    <option value="kompis">Friends</option>
+                    <option value="Google">Google</option>
+                    <br>
+                </select>
+                
+               
+                <p>Would you visit again?</p>
+                <input id="yes" type="radio" name="visit" value="yes">
+                <label for="yes">Yes</label>
+                <input id="no" type="radio" name="visit" value="no">
+                <label for="no">No</label>
+                <input id="maybe" type="radio" name="visit" value="maybe">
+                <label for="maybe">Maybe</label>
+                
+                <p>Comments:</p>
+                <textarea name="Comments" cols="30" rows="3" placeholder="Skriv här"></textarea>
+                <br>
+                <input type="checkbox" name="mail" value="mail" checked="checked" /> Sign me up for email updates
+                <br>
+                <input type="submit" value="submit"/>
+                
+            </fieldset>
+        </form>
+    </div>
+
+
+
+</body>
+</html>

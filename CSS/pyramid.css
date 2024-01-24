@@ -10,17 +10,19 @@ h2{
 }
 
 .text11{
-    border: solid 5px;
+    border: solid 3px;
     border-color: black;
     margin: 30px 50px; 
     background-color: darkgreen;
     color: white;
+    padding: 20px 10px;
 }
 
 #text2 {
-    border: solid 5px;
-    border-color: red;
-    margin: 30px 50px;
+    border: 8px solid red;
+    border-style: double;
+    margin: 40px 20px 40px 20px;
+    padding: 30px 20px;
 }   
 
 
